@@ -1,0 +1,253 @@
+body,h1,h2,h3,h4,h5,h6,ul,li,ol,p{
+    margin:0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body{
+    margin:0 auto;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 980px;
+    margin: 0 auto;
+}
+.header div:first-child{
+    float: left;
+}
+.header div:last-child{
+    float: right;
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.header{
+    overflow: hidden;
+    padding: 70px 0 0;
+    width: 980px;
+}
+.header ul li{
+    float: left;
+    list-style-type: none;
+    margin: 0 120px 0 0;
+}
+.header ul li:last-child{
+    margin:0;
+}
+.header h1{
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+}
+
+.header-wrapper img{
+    width:978px;
+    padding-bottom: 50px;
+}
+.menu-details > div:first-child{
+    width: 657px;
+    margin-right: 40px;
+}
+.menu-details > div:last-child{
+    width: 280px;
+}
+.menu-details > div{
+    float: left;
+}
+.menu-details{
+    overflow: hidden;
+}
+.menu-details div h3,p{
+    font-size: 14px;
+    font-weight:400;
+    color:#626262;
+}
+.menu-details div h2{
+    font-size: 30px;
+    font-weight: 400;
+    color:#626262;
+    padding: 12px 0 18px;
+}
+.menu-details div p{
+    color:#626262;
+}
+.menu-details div h3{
+    color:#b3ac9d;
+}
+.menu-details .para-image-details p , img{
+   margin-bottom: 50px;
+}
+.menu-details .para-wrapper{
+    width: 661px;
+}
+.para-wrapper p:first-child{
+    margin: 0 20px 40px;
+}
+.para-wrapper div:last-child{
+    color: #b4ac9e;
+    float: right;
+}
+.para-wrapper h3 i{
+    padding-left: 15px;
+    margin: 30px 0 119px 0;
+}
+.coffee-details img{
+    width:271px;
+    margin:0 0 0 10px;
+}
+
+.coffee-details div h1{
+    font-size: 24px;
+    color: #626262;
+    padding:10px 0 10px;
+}
+
+.coffee-details div p{
+    font-size: 12px;
+    color: #626262;
+    text-align: left;
+}
+
+.coffee-details div i{
+    padding:20px 10px 0 0;
+    color:#626262;
+}
+
+.menu-details .coffee-details .posts h2{
+    padding: 30px 0 30px;
+    font-size: 14px;
+    color:#b4ad9e;
+}
+
+.menu-details .coffee-details .posts h3{
+    font-size: 16px;
+    color: #626262;
+}
+
+.menu-details .coffee-details .posts h4{
+    font-size: 12px;
+    color: #b4ad9e;
+    padding:10px 0 35px;
+}
+
+.menu-details .coffee-details .posts img{
+    padding:30px 10px 0 0;
+}
+body .image-footer{
+    background-color: #f5f5f5;
+}
+.image{
+    overflow: hidden;
+    height: 265px;
+}
+.image-footer div:first-child img{
+    float: left;
+}
+.image  h2{
+    padding:40px 0 0 0;
+}
+.image img{
+    padding:20px 40px 0 0;
+   
+}
+.data{
+    overflow: hidden;
+}
+.data h3{
+    font-size:20px ;
+    font-weight: 400;
+    color:#626262 ;
+    float: left;
+    width: 273px;
+    margin:30px 45px 40px 0;
+}
+.footer-wrapper .comment-footer > h2{
+    font-size: 14px;
+    color:#b4ad9e;
+    padding:30px 0 0;
+}
+
+.comment-footer .commenter .commenter-each{
+    float:left;
+    background-color: #fff;
+}
+.commenter-each h3,h2{
+    font-size: 14px;
+    color: #b4ad9e;
+}
+.commenter-each div:first-child {
+    width: 88px;
+    padding: 20px 0 0 0;
+    margin-right: 30px;
+    height: 100px;
+}
+.commenter-each div:last-child {
+    width: 840px;
+}
+.commenter-each div {
+    float: left;
+    width: 840px;
+}
+.commenter div {
+    padding-top: 20px;
+    width: 980px;
+}
+.commenter-each img {
+    padding:0px;
+}
+.commenter-each p {
+    background-color:white;
+    padding-top: 10px;
+}
+.commenter-each input{
+    padding: 10px 670px 10px 10px;
+    height: 67px;
+    color: #c8c8c8;
+    border: 1px solid #c8c8c8;
+}
+.container .icons {
+    padding-right: 20px;
+}
+.icons{
+    overflow: hidden;
+}
+.container .icons li {
+    color: #c8c8c8;
+    padding:10px 0 50px 20px;
+    margin: 0px;
+    float: right;
+    display: inline;
+}
+.footer-wrapper-2{
+    background-color: #f0f0f0;
+}
+.footer{
+    overflow: hidden;
+    height: 92px;
+    padding: 20px;
+    width: 990px;
+    margin: 0 auto;
+}
+.footer div:first-child li{
+    float: left;
+    list-style-type: none;
+    padding: 0 20px 0 0;
+}
+.footer{
+    overflow: hidden;
+    padding-top: 40px;
+    color:#000000;
+    font-size: 14px;
+}
+.footer div:last-child li{
+    float: right;
+    display: inline;
+    padding:0 0 0 20px;
+}
+.footer i{
+    color:#616161;
+}
+
+
